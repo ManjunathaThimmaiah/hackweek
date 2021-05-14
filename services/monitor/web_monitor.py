@@ -20,7 +20,7 @@ async def website_monitor_data(url=url, regex: Optional[str] = regex):
 
             data = {
                 "data": {
-                    "site_id": 1,
+                    "id": 1,
                     "status_code": response.status,
                     "url": url,
                     "regex_matching": matcher,
