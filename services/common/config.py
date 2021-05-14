@@ -1,9 +1,9 @@
 class DB_Config:
-    dbhost: str = 'pg-27a6b2a5-manjunatha-1738.aivencloud.com'
-    dbport: int = 15659
-    dbname: str = 'defaultdb'
-    dbuser: str = 'avnadmin'
-    dbpass: str = 'a37e8w81ho5i4766'
+    dbhost: str = ''
+    dbport: int = ''
+    dbname: str = ''
+    dbuser: str = ''
+    dbpass: str = ''
 
 
 class SiteMonitorDataConfig:
